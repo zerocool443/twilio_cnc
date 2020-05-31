@@ -1,0 +1,12 @@
+[Unit]
+Description=Flask micorservice on port 4576
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/you_cnc_directory
+ExecStart=/usr/bin/python3 http_channel.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
