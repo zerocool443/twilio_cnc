@@ -1,0 +1,6 @@
+sudo service name_of_your_service status
+sudo service name_of_your_service status 
+
+config dir for systemd daemons: /etc/systemd/system/
+
+#push name_of_your_service.service to above directory
